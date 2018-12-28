@@ -1,0 +1,108 @@
+.navbar-default {
+  background-color: transparent;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 0;
+  border-radius: 0;
+}
+
+.navbar-default .navbar-toggle,
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  float: left;
+  border: none;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-collapse {
+  border: none;
+  background: transparent !important;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+  font-family: Avenir;
+  font-size: 18px;
+  padding: 10px;
+  position: relative;
+  text-decoration: none;
+}
+
+.navbar-center {
+  margin-left: 50%;
+  transform: translatex(-50%);
+}
+
+.navbar-brand {
+  display: none;
+  font-style: Avenir-Black;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: gray;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: lightgray;
+}
+
+@media (max-width: 995px) {
+  .navbar-nav {
+    width: 62%;
+  }
+}
+
+@media (max-width: 766px) {
+  .navbar-default {
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 0;
+    border-radius: 0;
+  }
+
+  .navbar-default .navbar-nav > li > a {
+    text-align: center;
+    color: white;
+    font-family: Avenir-Black;
+    font-size: 18px;
+    padding: 10px;
+    position: relative;
+    text-decoration: none;
+  }
+  .navbar-nav > li > a:before {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    bottom: 0px;
+    left: 0%;
+    background: white;
+    border-radius: 5px;
+  }
+
+  .navbar-nav > li > a:hover:before {
+    width: 0%;
+    text-decoration: none;
+  }
+
+  .navbar-brand {
+    display: block;
+    color: white !important;
+    font-family: Avenir-Black;
+    text-align: center !important;
+    padding-left: 0%;
+  }
+}
