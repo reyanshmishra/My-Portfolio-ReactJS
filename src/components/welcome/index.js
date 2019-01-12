@@ -10,7 +10,7 @@ class Welcome extends Component {
           Hello World;
           <br />
           <br />
-          {"I'M"}
+          {"I am"}
         </HelloWorld>
         <Name>
           <b>
