@@ -1,17 +1,16 @@
-import { fromJS } from 'immutable'
+import { fromJS } from "immutable";
 
 const initialState = fromJS({
-  tag: fromJS({})
-})
+  tag: fromJS({ ok: "asdf" })
+});
 
 function rootReducer(state = initialState, action) {
   switch (action.type) {
-    case 'AAA':
-      return state
-
+    case "AAA":
+      return state;
     default:
-      return state
+      return state;
   }
 }
 
-export default rootReducer
+export default rootReducer;

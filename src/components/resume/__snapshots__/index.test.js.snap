@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when there are no items 1`] = `
+<div
+  className="sc-bdVaJa gYXdsf"
+>
+  <img
+    alt="react-boilerplate - Logo"
+    className="animated zoomIn delay-0.2s sc-htpNat iLHwDe"
+    src="Reyansh.png"
+  />
+  <a
+    className="animated slideInUp delay-0.3s sc-bwzfXH llauBH"
+    href="reyansh_mishra.pdf"
+    target="_blank"
+  >
+    Download
+  </a>
+</div>
+`;

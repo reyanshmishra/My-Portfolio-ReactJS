@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when there are no items 1`] = `
+<div
+  className="sc-bdVaJa kbAVFe"
+>
+  <div
+    className="sc-bwzfXH kopycF"
+  >
+    <div
+      className="sc-htpNat bClCIr"
+    >
+      <div
+        className="sc-bxivhb cmxNy"
+      >
+        <div
+          className="sc-ifAKCX dCBjeU"
+        >
+          Android
+        </div>
+      </div>
+      <div
+        className="sc-EHOje kNitlQ"
+      >
+        Android is where I excel.I have more than two years of experience in android development and I have created several apps for android. I have knowledge of RestApis, threads, several famous libraries like Picasso, Retrofit, Volley, RxAndroid etc.
+      </div>
+    </div>
+    <div
+      className="sc-htpNat bClCIr"
+    >
+      <div
+        className="sc-bxivhb cmxNy"
+      >
+        <div
+          className="sc-ifAKCX dCBjeU"
+        >
+          iOS
+        </div>
+      </div>
+      <div
+        className="sc-EHOje kNitlQ"
+      >
+        Since I left my job and started doing freelancing, Since then I have been working on iOS development and have created the B2B app for the client. Though I am new have good knowledge of iOS development and MVC in it, I know about Alamofire, Realm, Kingfisher libraries in iOS.
+      </div>
+    </div>
+    <div
+      className="sc-htpNat bClCIr"
+    >
+      <div
+        className="sc-bxivhb cmxNy"
+      >
+        <div
+          className="sc-ifAKCX dCBjeU"
+        >
+          Design
+        </div>
+      </div>
+      <div
+        className="sc-EHOje kNitlQ"
+      >
+        I know a little bit of Sketch, Photoshop, and illustrator. This website is designed using Sketch and then it is developed using HTML and CSS (Designing is not my area of expertise).
+      </div>
+    </div>
+    <div
+      className="sc-htpNat bClCIr"
+    >
+      <div
+        className="sc-bxivhb cmxNy"
+      >
+        <div
+          className="sc-ifAKCX dCBjeU"
+        >
+          Web 
+          <br />
+          Development
+        </div>
+      </div>
+      <div
+        className="sc-EHOje kNitlQ"
+      >
+        This website proves that I know ReactJS as well as I have created it using ReactJS as I wanted to learn web development too.
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when there are no items 1`] = `
+<div
+  className="sc-bdVaJa fhlziI"
+>
+  <h1
+    className="sc-bwzfXH hlfBfo"
+  >
+    404 
+    <br />
+    Page not found.
+  </h1>
+</div>
+`;

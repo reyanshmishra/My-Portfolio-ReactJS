@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when there are no items 1`] = `
+<nav
+  className="navbar-default navbar navbar-inverse navbar-fixed-top"
+  style={
+    Object {
+      "backgroundColor": "transparent",
+      "boxShadow": null,
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <div
+      className="container-fluid"
+    >
+      <div
+        className="navbar-header"
+      >
+        <button
+          className="navbar-toggle collapsed"
+          onClick={[Function]}
+          type="button"
+        >
+          <span
+            className="sr-only"
+          >
+            Toggle navigation
+          </span>
+          <span
+            className="icon-bar"
+          />
+          <span
+            className="icon-bar"
+          />
+          <span
+            className="icon-bar"
+          />
+        </button>
+        <span
+          className="navbar-brand"
+        >
+          Welcome
+        </span>
+      </div>
+      <div
+        aria-expanded={null}
+        className="navbar-collapse collapse"
+      >
+        <ul
+          className="nav navbar-nav navbar-center nav navbar-nav"
+          role={null}
+        >
+          <li
+            className="sc-bdVaJa dxrIjc"
+            role="presentation"
+            style={undefined}
+          >
+            <a
+              href="#"
+              isselected="true"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              role="button"
+            >
+              Welcome
+            </a>
+          </li>
+          <li
+            className="sc-bdVaJa jBEbvB"
+            role="presentation"
+            style={undefined}
+          >
+            <a
+              href="#"
+              isselected="false"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              role="button"
+            >
+              About Me
+            </a>
+          </li>
+          <li
+            className="sc-bdVaJa jBEbvB"
+            role="presentation"
+            style={undefined}
+          >
+            <a
+              href="#"
+              isselected="false"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              role="button"
+            >
+              Skills
+            </a>
+          </li>
+          <li
+            className="sc-bdVaJa jBEbvB"
+            role="presentation"
+            style={undefined}
+          >
+            <a
+              href="#"
+              isselected="false"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              role="button"
+            >
+              Projects
+            </a>
+          </li>
+          <li
+            className="sc-bdVaJa jBEbvB"
+            role="presentation"
+            style={undefined}
+          >
+            <a
+              href="#"
+              isselected="false"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              role="button"
+            >
+              Resume
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+`;

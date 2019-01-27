@@ -1,16 +1,16 @@
-import styled from 'styled-components'
-import React, { Component } from 'react'
-import PropTypes from 'prop-types'
-import { withRouter } from 'react-router-dom'
-import LinkedIn from 'react-icons/lib/fa/linkedin-square'
-import Github from 'react-icons/lib/fa/github-square'
-import StackOverflow from 'react-icons/lib/fa/stack-overflow'
-import * as Utils from '../utils'
+import styled from "styled-components";
+import React, { Component } from "react";
+import PropTypes from "prop-types";
+import { withRouter } from "react-router-dom";
+import LinkedIn from "react-icons/lib/fa/linkedin-square";
+import Github from "react-icons/lib/fa/github-square";
+import StackOverflow from "react-icons/lib/fa/stack-overflow";
+import * as Utils from "../utils";
 
 class Footer extends Component {
   render() {
-    const { pathname } = this.props.location
-    const color = Utils.getFooterColor(pathname)
+    const { pathname } = this.props.location;
+    const color = Utils.getFooterColor(pathname);
     return (
       <FooterHolder>
         <LeftNavIcons>
@@ -26,7 +26,7 @@ class Footer extends Component {
         </LeftNavIcons>
         <CopyRightLabel color={color}>copyright © 2017</CopyRightLabel>
       </FooterHolder>
-    )
+    );
   }
 }
 
@@ -44,22 +44,22 @@ const FooterHolder = styled.div`
   align-items: center;
   justify-content: space-between;
 }
-`
+`;
 
 const LeftNavIcons = styled.div`
   display: flex;
   flex-direction: row;
-`
+`;
 
 const CopyRightLabel = styled.div`
   color: color;
-  position: 'absolute';
+  position: "absolute";
   right: 0;
   marginright: 10;
   fontsize: 12;
-  fontfamily: 'Avenir-Black';
+  fontfamily: "Avenir-Black";
   color: ${props => props.color};
-`
+`;
 const Anchor = styled.a`
   margin: 10px;
   color: ${props => props.color};
@@ -69,13 +69,13 @@ const Anchor = styled.a`
   &:focus {
     color: black;
   }
-`
+`;
 
 Footer.propTypes = {
   currentPath: PropTypes.string
-}
+};
 
 Footer.defaultProps = {
   currentPath: null
-}
-export default withRouter(Footer)
+};
+export default withRouter(Footer);

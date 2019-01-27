@@ -1,0 +1,310 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when there are no items 1`] = `
+<div
+  className="sc-bdVaJa jgDGiq"
+>
+  <div
+    style={
+      Object {
+        "height": "100%",
+        "overflow": "auto",
+        "paddingTop": 100,
+      }
+    }
+  >
+    <table
+      className="sc-bwzfXH jlctcJ"
+    >
+      <tbody>
+        <tr
+          className="sc-htpNat ciGDDK"
+        >
+          <td
+            colSpan={40}
+            style={
+              Object {
+                "textAlign": "center",
+              }
+            }
+          >
+            Android
+          </td>
+        </tr>
+        <tr
+          className="sc-htpNat ciGDDK"
+        >
+          <td>
+            <div
+              className="sc-bxivhb gXzGTT"
+            >
+              <a
+                className="sc-ifAKCX ezGNMw"
+                href="https://play.google.com/store/apps/details?id=com.wodrob.app"
+                style={
+                  Object {
+                    "color": "white",
+                    "textDecoration": "none",
+                  }
+                }
+                target="_blank"
+              >
+                Wodrob
+              </a>
+            </div>
+          </td>
+          <td>
+            <div
+              className="sc-EHOje fBVJnp"
+            >
+              <a
+                className="sc-bZQynM hpNSQt"
+                href="https://play.google.com/store/apps/details?id=com.reyansh.audio.audioplayer.free"
+                style={
+                  Object {
+                    "color": "white",
+                    "textDecoration": "none",
+                  }
+                }
+                target="_blank"
+              >
+                Boom
+              </a>
+            </div>
+          </td>
+          <td>
+            <div
+              className="sc-gzVnrw fCgEbP"
+            >
+              <a
+                className="sc-htoDjs blMAgp"
+                href="https://play.google.com/store/apps/details?id=com.mp3cutter.ringtonemaker.ringtonemaker"
+                style={
+                  Object {
+                    "color": "white",
+                    "textDecoration": "none",
+                  }
+                }
+                target="_blank"
+              >
+                Bell
+              </a>
+            </div>
+          </td>
+          <td>
+            <div
+              className="sc-dnqmqq glulVk"
+            >
+              <a
+                className="sc-iwsKbI cYNiXF"
+                href="https://play.google.com/store/apps/details?id=com.reyansh.batterylife"
+                style={
+                  Object {
+                    "color": "white",
+                    "textDecoration": "none",
+                  }
+                }
+                target="_blank"
+              >
+                Battery Life
+              </a>
+            </div>
+          </td>
+          <td>
+            <div
+              className="sc-gZMcBi cgtkaG"
+            >
+              <a
+                className="sc-gqjmRU ifjgnZ"
+                href="https://play.google.com/store/apps/details?id=com.reyansh.rambooster"
+                style={
+                  Object {
+                    "color": "white",
+                    "textDecoration": "none",
+                  }
+                }
+                target="_blank"
+              >
+                Ram Booster
+              </a>
+            </div>
+          </td>
+        </tr>
+        <tr
+          className="sc-htpNat ciGDDK"
+        >
+          <td>
+            <div
+              className="sc-VigVT eAPTwd"
+            >
+              <a
+                className="sc-jTzLTM letgIQ"
+                href="https://play.google.com/store/apps/details?id=com.reyansh.easytouch"
+                style={
+                  Object {
+                    "color": "white",
+                    "textDecoration": "none",
+                  }
+                }
+                target="_blank"
+              >
+                Easy Touch
+              </a>
+            </div>
+          </td>
+          <td>
+            <div
+              className="sc-fjdhpX fpJRiJ"
+            >
+              <a
+                className="sc-jzJRlG edqgVr"
+                href="https://play.google.com/store/apps/details?id=com.english.learn.learnenglish"
+                style={
+                  Object {
+                    "color": "white",
+                    "textDecoration": "none",
+                  }
+                }
+                target="_blank"
+              >
+                Learn English
+              </a>
+            </div>
+          </td>
+          <td>
+            <div
+              className="sc-cSHVUG gVydYy"
+            >
+              <a
+                className="sc-kAzzGY cBdyjl"
+                href="https://play.google.com/store/apps/details?id=com.radio.global.globalradio"
+                style={
+                  Object {
+                    "color": "white",
+                    "textDecoration": "none",
+                  }
+                }
+                target="_blank"
+              >
+                World radio
+              </a>
+            </div>
+          </td>
+          <td>
+            <div
+              className="sc-chPdSV bTppGY"
+            >
+              <a
+                className="sc-kgoBCf bJkVSR"
+                href="https://play.google.com/store/apps/details?id=com.om.mirror"
+                style={
+                  Object {
+                    "color": "white",
+                    "textDecoration": "none",
+                  }
+                }
+                target="_blank"
+              >
+                Mirror
+              </a>
+            </div>
+          </td>
+        </tr>
+        <tr
+          className="sc-htpNat ciGDDK"
+        >
+          <td
+            colSpan={40}
+            style={
+              Object {
+                "textAlign": "center",
+              }
+            }
+          >
+            iOS
+          </td>
+        </tr>
+        <tr
+          className="sc-htpNat ciGDDK"
+        >
+          <td>
+            <div
+              className="sc-kGXeez iVRqMo"
+            >
+              <a
+                className="sc-kpOJdX cRieiN"
+                href="https://itunes.apple.com/us/app/smartwalk/id1345045197?mt=8"
+                style={
+                  Object {
+                    "color": "white",
+                    "textDecoration": "none",
+                  }
+                }
+                target="_blank"
+              >
+                Smart Walk
+              </a>
+            </div>
+          </td>
+        </tr>
+        <tr
+          className="sc-htpNat ciGDDK"
+        >
+          <td
+            colSpan={40}
+            style={
+              Object {
+                "textAlign": "center",
+              }
+            }
+          >
+            ReactJS
+          </td>
+        </tr>
+        <tr
+          className="sc-htpNat ciGDDK"
+        >
+          <td>
+            <div
+              className="sc-dxgOiQ kwwYzm"
+            >
+              <a
+                className="sc-ckVGcZ fNDBzc"
+                href="https://www.codegiant.io"
+                style={
+                  Object {
+                    "color": "white",
+                    "textDecoration": "none",
+                  }
+                }
+                target="_blank"
+              >
+                Codegiant
+              </a>
+            </div>
+          </td>
+          <td>
+            <div
+              className="sc-jKJlTe dJgEAl"
+            >
+              <a
+                className="sc-eNQAEJ eLhacp"
+                href="https://www.reyanshmishra.com"
+                style={
+                  Object {
+                    "color": "white",
+                    "textDecoration": "none",
+                  }
+                }
+                target="_blank"
+              >
+                Reyansh
+              </a>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;
