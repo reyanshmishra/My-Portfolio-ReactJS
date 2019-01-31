@@ -19,15 +19,10 @@ class NavigationBar extends Component {
     const color = Utils.getNavigationColor(pathname);
     const title = Utils.getBrandName(pathname);
     const selected = (pathname, currentpathname) => pathname === currentpathname;
+    const shadow = color === "transparent" || pathname.includes("/blog") ? null : "lightgrey 10px 8px 20px";
 
     return (
-      <Navbar
-        inverse
-        collapseOnSelect
-        fixedTop
-        className="navbar-default"
-        style={{ backgroundColor: color, boxShadow: color !== "transparent" ? "lightgrey 10px 8px 20px" : null }}
-      >
+      <Navbar inverse collapseOnSelect fixedTop className="navbar-default" style={{ backgroundColor: color, boxShadow: shadow }}>
         <div className="container-fluid">
           <Navbar.Header>
             <Navbar.Toggle />
@@ -50,9 +45,9 @@ class NavigationBar extends Component {
               <CustomNav isselected={selected(pathname, "/resume").toString()} onClick={this.navigate("/resume")}>
                 Resume
               </CustomNav>
-              {/* <CustomNav isselected={selected(pathname, "/blog").toString()} onClick={this.navigate("/blog")}>
+              <CustomNav isselected={selected(pathname, "/blog").toString()} onClick={this.navigate("/blog")}>
                 Blog
-              </CustomNav> */}
+              </CustomNav>
             </Nav>
           </Navbar.Collapse>
         </div>

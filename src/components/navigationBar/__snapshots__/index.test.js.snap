@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly when there are no items 1`] = `
+exports[`renders correctly 1`] = `
 <nav
   className="navbar-default navbar navbar-inverse navbar-fixed-top"
   style={
@@ -126,6 +126,21 @@ exports[`renders correctly when there are no items 1`] = `
               role="button"
             >
               Resume
+            </a>
+          </li>
+          <li
+            className="sc-bdVaJa jBEbvB"
+            role="presentation"
+            style={undefined}
+          >
+            <a
+              href="#"
+              isselected="false"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              role="button"
+            >
+              Blog
             </a>
           </li>
         </ul>

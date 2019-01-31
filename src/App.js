@@ -22,7 +22,8 @@ const App = () => (
         <Route exact path="/projects" component={Projects} />
         <Route exact path="/skills" component={Skills} />
         <Route exact path="/resume" component={Resume} />
-        {/* <Route exact path="/blog" component={Blog} /> */}
+        <Route exact path="/blog" component={Blog} />
+        <Route exact path="/blog/:app" component={Blog} />
 
         <Redirect to="/" />
       </Switch>

@@ -3,7 +3,7 @@ import renderer from "react-test-renderer";
 
 import Resume from "./index.js";
 
-it("renders correctly when there are no items", () => {
+it("renders correctly", () => {
   const tree = renderer.create(<Resume />).toJSON();
   expect(tree).toMatchSnapshot();
 });

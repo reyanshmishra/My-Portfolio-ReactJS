@@ -7,7 +7,6 @@ import "./index.css";
 import App from "./App";
 import rootSaga from "./sagas";
 import rootReducer from "./reducers";
-import registerServiceWorker from "./registerServiceWorker";
 const sagaMiddleware = createSagaMiddleware();
 
 const store = () => {
@@ -22,12 +21,18 @@ const store = () => {
   sagaMiddleware.run(rootSaga);
   return store;
 };
+const rootEl = document.getElementById("root");
 
 ReactDOM.render(
   <Provider store={store()}>
     <App />
   </Provider>,
-
-  document.getElementById("root")
+  rootEl
 );
-registerServiceWorker();
+
+if (module.hot) {
+  module.hot.accept("./App", () => {
+    const NextApp = require("./App").default;
+    ReactDOM.render(<NextApp />, rootEl);
+  });
+}

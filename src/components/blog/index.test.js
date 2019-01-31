@@ -3,7 +3,7 @@ import renderer from "react-test-renderer";
 
 import Blog from "./index.js";
 
-it("renders correctly when there are no items", () => {
+it("renders correctly", () => {
   const tree = renderer.create(<Blog />).toJSON();
   expect(tree).toMatchSnapshot();
 });

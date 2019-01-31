@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly when there are no items 1`] = `
+exports[`renders correctly 1`] = `
 <div
   className="sc-bdVaJa kbAVFe"
 >
@@ -78,7 +78,7 @@ exports[`renders correctly when there are no items 1`] = `
       <div
         className="sc-EHOje kNitlQ"
       >
-        This website proves that I know ReactJS as well as I have created it using ReactJS as I wanted to learn web development too.
+        This website proves that I know ReactJS as well, as I have created it using ReactJS as I wanted to learn web development too.
       </div>
     </div>
   </div>

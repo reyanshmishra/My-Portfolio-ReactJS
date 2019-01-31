@@ -4,7 +4,7 @@ import renderer from "react-test-renderer";
 import Footer from "./index.js";
 import { BrowserRouter as Router } from "react-router-dom";
 
-it("renders correctly when there are no items", () => {
+it("renders correctly", () => {
   const tree = renderer
     .create(
       <Router>

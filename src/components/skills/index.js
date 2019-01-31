@@ -117,7 +117,7 @@ const Skills = () => (
           </D>
         </DataIndicator>
         <DataDesc>
-          This website proves that I know ReactJS as well as I have created it using ReactJS as I wanted to learn web development
+          This website proves that I know ReactJS as well, as I have created it using ReactJS as I wanted to learn web development
           too.
         </DataDesc>
       </Row>

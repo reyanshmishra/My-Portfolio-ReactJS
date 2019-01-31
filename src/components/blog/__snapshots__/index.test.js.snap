@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly when there are no items 1`] = `
-<div>
+exports[`renders correctly 1`] = `
+<div
+  className="sc-bdVaJa inBuqz"
+>
   Blog
 </div>
 `;

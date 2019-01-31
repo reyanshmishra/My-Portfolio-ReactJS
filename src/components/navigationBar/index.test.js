@@ -4,7 +4,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 
 import NavBar from "./index.js";
 
-it("renders correctly when there are no items", () => {
+it("renders correctly", () => {
   const tree = renderer
     .create(
       <Router>
