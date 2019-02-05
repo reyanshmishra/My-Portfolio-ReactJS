@@ -6,7 +6,7 @@ const configs = {
   devtool: "eval-source-map",
   context: path.join(__dirname, "src"), // `__dirname` is root of project and `src` is source
   entry: {
-    app: "./index.js"
+    js: ["babel-polyfill", "./index.js"]
   },
   mode: "development",
   output: {
@@ -16,10 +16,8 @@ const configs = {
   },
   devServer: {
     contentBase: path.join(__dirname, "src"),
-    port: 3000,
     hot: true,
     inline: true,
-    host: "0.0.0.0",
     historyApiFallback: true,
     stats: {
       colors: true
@@ -28,7 +26,7 @@ const configs = {
   plugins: [
     // Compile index.ejs into index.html, adding styles and scripts with chunkhash value
     new HtmlWebpackPlugin({
-      template: "./public/index.html"
+      template: "../public/index.html"
     }),
     new webpack.NamedModulesPlugin(),
     new webpack.HotModuleReplacementPlugin()
@@ -48,6 +46,17 @@ const configs = {
       {
         test: /\.css$/,
         use: ["style-loader", "css-loader"]
+      },
+      {
+        test: /\.(png|jpg|gif|pdf)$/,
+        use: [
+          {
+            loader: "file-loader",
+            options: {
+              outputPath: "images"
+            }
+          }
+        ]
       }
     ]
   }
