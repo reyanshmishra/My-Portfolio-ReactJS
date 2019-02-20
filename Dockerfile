@@ -7,4 +7,15 @@ RUN npm install
 
 COPY . .
 
-CMD ["npm", "run", "start"]
+CMD if [ ${NODE_ENV} = production ]; \
+    then \
+    npm install -g http-server && \
+    npm run build && \
+    cd build && \
+    hs -p 3000; \
+    else \
+    npm run start; \
+    fi
+
+EXPOSE 8080
+

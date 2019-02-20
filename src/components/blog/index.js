@@ -38,9 +38,7 @@ class Blog extends Component {
           </ul>
         </SideBarWrapper>
         <div>
-          {routes.map((route, index) => (
-            <Route key={index} path={route.path} exact={route.exact} component={route.sidebar} />
-          ))}
+          {routes.map((route, index) => <Route key={index} path={route.path} exact={route.exact} component={route.sidebar} />)}
         </div>
       </Wrapper>
     );

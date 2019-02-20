@@ -6,7 +6,7 @@ const configs = {
   devtool: "eval-source-map",
   context: path.join(__dirname, "src"), // `__dirname` is root of project and `src` is source
   entry: {
-    js: ["babel-polyfill", "./index.js"]
+    js: ["babel-polyfill", "webpack-dev-server/client?http://0.0.0.0:3000", "./index.js"]
   },
   mode: "development",
   output: {
@@ -22,6 +22,10 @@ const configs = {
     stats: {
       colors: true
     }
+  },
+  watchOptions: {
+    aggregateTimeout: 300,
+    poll: 1000
   },
   plugins: [
     // Compile index.ejs into index.html, adding styles and scripts with chunkhash value

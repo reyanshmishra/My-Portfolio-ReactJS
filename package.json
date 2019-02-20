@@ -20,7 +20,7 @@
     "styled-components": "^3.3.0"
   },
   "scripts": {
-    "start": "webpack-dev-server",
+    "start": "webpack-dev-server --host 0.0.0.0",
     "test": "webpack -w -p"
   },
   "devDependencies": {
