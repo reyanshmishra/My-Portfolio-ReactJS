@@ -5,6 +5,8 @@ import { withRouter } from "react-router-dom";
 import LinkedIn from "react-icons/lib/fa/linkedin-square";
 import Github from "react-icons/lib/fa/github-square";
 import StackOverflow from "react-icons/lib/fa/stack-overflow";
+import Twitter from "react-icons/lib/fa/twitter";
+
 import * as Utils from "../utils";
 
 class Footer extends Component {
@@ -19,6 +21,9 @@ class Footer extends Component {
           </Anchor>
           <Anchor color={color} target="_blank" rel="noopener noreferrer" href={Utils.LINKEDIN}>
             <LinkedIn size={30} />
+          </Anchor>
+          <Anchor color={color} target="_blank" rel="noopener noreferrer" href={Utils.STACKOVERFLOW}>
+            <Twitter size={30} />
           </Anchor>
           <Anchor color={color} target="_blank" rel="noopener noreferrer" href={Utils.STACKOVERFLOW}>
             <StackOverflow size={30} />
