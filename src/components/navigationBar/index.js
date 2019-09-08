@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { withRouter } from "react-router-dom";
 import { Navbar, Nav, NavItem } from "react-bootstrap";
 import styled from "styled-components";
-import * as Utils from "../utils";
+import * as Utils from "../utils"
 import "./demo_bar.css";
 
 class NavigationBar extends Component {
@@ -19,10 +19,9 @@ class NavigationBar extends Component {
     const color = Utils.getNavigationColor(pathname);
     const title = Utils.getBrandName(pathname);
     const selected = (pathname, currentpathname) => pathname === currentpathname;
-    const shadow = color === "transparent" || pathname.includes("/blog") ? null : "lightgrey 10px 8px 20px";
 
     return (
-      <Navbar inverse collapseOnSelect fixedTop className="navbar-default" style={{ backgroundColor: color, boxShadow: shadow }}>
+      <Navbar inverse collapseOnSelect fixedTop className="navbar-default" style={{ backgroundColor: color }}>
         <div className="container-fluid">
           <Navbar.Header>
             <Navbar.Toggle />
@@ -45,9 +44,6 @@ class NavigationBar extends Component {
               <CustomNav isselected={selected(pathname, "/resume").toString()} onClick={this.navigate("/resume")}>
                 Resume
               </CustomNav>
-              <CustomNav isselected={selected(pathname, "/blog").toString()} onClick={this.navigate("/blog")}>
-                Blog
-              </CustomNav>
             </Nav>
           </Navbar.Collapse>
         </div>
@@ -55,6 +51,7 @@ class NavigationBar extends Component {
     );
   }
 }
+export default withRouter(NavigationBar);
 
 const CustomNav = styled(NavItem)`
   a:before {
@@ -74,4 +71,3 @@ const CustomNav = styled(NavItem)`
   }
 `;
 
-export default withRouter(NavigationBar);

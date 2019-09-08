@@ -45,10 +45,11 @@ class Welcome extends Component {
     );
   }
 }
+export default Welcome
 
 const Wrapper = styled.div`
   background-image: linear-gradient(rgba(18, 19, 20, 0.55) 100%, rgba(110, 108, 108, 0) 0%),
-    url("https://source.unsplash.com/random");
+    url("https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-1.2.1&auto=format&fit=crop&w=2700&q=80");
   background-size: 100%;
   flex-direction: column;
   justify-content: center;
@@ -89,4 +90,3 @@ const Skill = styled.h4`
   font-style: italic;
   font-family: Avenir-Black;
 `;
-export default Welcome;
