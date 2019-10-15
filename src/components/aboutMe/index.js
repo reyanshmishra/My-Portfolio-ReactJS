@@ -27,30 +27,23 @@ const AboutMe = () => (
   <Wrapper>
     <Div>
       <p>
-        Hey, My name is Reyansh Mishra, I am an Android and iOS Developer, previously I was working with Tacto Infomedia Pvt. Ltd.
-        currently, I am freelancing. In my college days, I created an Android App called Boom because of which Ianded a job in my
-        first company that is Tacto.
+        Hey, My name is Reyansh Mishra, I am an Android and fullstack deverloper. In my college days, I created an Android App
+        called Boom because of which got my firt offer from a startup.
         <br />
         <br />
-When I was in final year of my graduation I had PPO from L&T Infotech and Infosys but I chose to work with a
-        Startup because learning new skills and development work excites me more than working in an MNC. I am an Android
-        enthusiast and have created a couple of open source projects on my GitHub profile.
+        <br />
+        When I was in final year of my graduation I had PPO from L&T Infotech and Infosys but I chose to work with a Startup
+        because learning new skills and development work excites me more than working in an MNC. I am an Android and
+        ReactJS/Native enthusiast and have created a couple of open source projects on my GitHub profile.
         <br />
         <br />
-When I was in final year of my graduation I had PPO from L&T Infotech and Infosys but I chose to work with a
-        Startup because learning new skills and development work excites me more than working in an MNC. I am an Android
-        enthusiast and have created a couple of open source projects on my GitHub profile.
+        I started learning android when I had to create a project for my graduation and I learned android development from youtube
+        and with the help of some blogs and open source projects.
         <br />
         <br />
-I started learning android when I had to create a project for my graduation and I learned android development from
-        youtube and with the help of blogs and open source projects.
         <br />
-        <br />
-My biggest inspiration is "Mr. Elon Musk" maybe I will get lucky someday and meet him.
-        <br />
-        <br />
-In my spare time, I either play a video game on my PlayStation 4 or use the internet. I don’t like to study books
-        so I use Quora to gain a little bit of knowledge, sometimes I write there but not much.
+        In my spare time, I either play a video game on my PlayStation 4 or use the internet or read technical blogs. I don’t like
+        to study books so I use Quora to gain a little bit of knowledge, sometimes I answer some questions as well.
       </p>
     </Div>
   </Wrapper>

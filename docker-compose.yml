@@ -8,4 +8,4 @@ services:
       - /app/node_modules
       - .:/app
     ports:
-      - "3000:8080"
+      - "8011:8011"
