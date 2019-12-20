@@ -187,6 +187,10 @@ const Projects = () => (
             <td>
               <TD image={Images.ReyanshLogo} name="Reyansh" href="https://www.reyanshmishra.com" />
             </td>
+
+            <td>
+              <TD image={Images.TalentHerderLogo} name="Talent Herder" href="https://app.talentherder.com" />
+            </td>
           </TR>
           <TR>
             <td style={{ textAlign: 'center' }} colSpan={40}>
