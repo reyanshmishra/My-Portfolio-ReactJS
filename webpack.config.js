@@ -30,7 +30,7 @@ const configs = {
   },
   plugins: [
     // Compile index.ejs into index.html, adding styles and scripts with chunkhash value
-    new HtmlWebpackPlugin({ template: '../public/index.html' }),
+    new HtmlWebpackPlugin({ template: '../public/index.html', favicon: '../src/assets/img/Reyansh.png' }),
     new CleanWebpackPlugin(['dist']),
     new webpack.NamedModulesPlugin(),
     new webpack.HotModuleReplacementPlugin()

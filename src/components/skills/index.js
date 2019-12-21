@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { Helmet } from 'react-helmet'
 
 const Wrapper = styled.div`
   width: 100%;
@@ -16,7 +17,7 @@ const SecondWrapper = styled.div`
   flex-direction: column;
   width: 60%;
   display: flex;
-  height: 50%;
+  height: 60%;
   @media (max-width: 766px) {
     width: 100%;
     height: 80%;
@@ -79,6 +80,9 @@ const DataDesc = styled.div`
 
 const Skills = () => (
   <Wrapper>
+    <Helmet>
+      <title>Reyansh-Skills</title>
+    </Helmet>
     <SecondWrapper>
       <Row>
         <DataIndicator>
@@ -117,8 +121,23 @@ const Skills = () => (
           </D>
         </DataIndicator>
         <DataDesc>
-          This website proves that I know ReactJS as well, as I have created it using ReactJS as I wanted to learn web development
-          too.
+          This website proves that I know ReactJS as well, I have created it using ReactJS. I have 1.5 years of experience in
+          ReactJS and javascript I have built several websites in ReactJS, along the way I have learned about redux, saga, Immer,
+          Immutalbejs and other several other libraries which are basic building blocks of complex ReactJS website.
+        </DataDesc>
+      </Row>
+
+      <Row>
+        <DataIndicator>
+          <D>
+            React <br />
+            Native
+          </D>
+        </DataIndicator>
+        <DataDesc>
+          I have worked on few ReactNative apps as well, as I come from a mobile app developed background ReactNative seems pretty
+          easy to me. ReactNative is just similar to ReactJS except for the syntaxes so I don't think it was that hard to learn. I
+          am kind of proficient in it.
         </DataDesc>
       </Row>
     </SecondWrapper>

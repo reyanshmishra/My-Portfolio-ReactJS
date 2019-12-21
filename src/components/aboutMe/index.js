@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { Helmet } from 'react-helmet'
 
 const Wrapper = styled.div`
   width: 100%;
@@ -25,6 +26,9 @@ const Div = styled.div`
 
 const AboutMe = () => (
   <Wrapper>
+    <Helmet>
+      <title>Reyansh-About Me</title>
+    </Helmet>
     <Div>
       <p>
         Hey, My name is Reyansh Mishra, I am an Android and fullstack deverloper. In my college days, I created an Android App
