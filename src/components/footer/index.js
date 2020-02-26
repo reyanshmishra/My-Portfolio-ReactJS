@@ -2,13 +2,10 @@ import styled from 'styled-components'
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import { withRouter } from 'react-router-dom'
-import LinkedIn from 'react-icons/lib/fa/linkedin-square'
-import Github from 'react-icons/lib/fa/github-square'
-import StackOverflow from 'react-icons/lib/fa/stack-overflow'
-import Twitter from 'react-icons/lib/fa/twitter'
+import { FaLinkedin, FaGithub, FaStackOverflow, FaTwitter, FaQuora } from 'react-icons/fa'
 
 import * as Utils from '../utils'
-import { GITHUB, LINKEDIN, TWITTER, STACKOVERFLOW } from '../utils/constants'
+import { GITHUB, LINKEDIN, TWITTER, STACKOVERFLOW, QUORA } from '../utils/constants'
 
 class Footer extends Component {
   render() {
@@ -18,16 +15,19 @@ class Footer extends Component {
       <FooterHolder>
         <LeftNavIcons>
           <Anchor color={color} target="_blank" rel="noopener noreferrer" href={GITHUB}>
-            <Github size={30} />
+            <FaGithub size={30} />
           </Anchor>
           <Anchor color={color} target="_blank" rel="noopener noreferrer" href={LINKEDIN}>
-            <LinkedIn size={30} />
+            <FaLinkedin size={30} />
           </Anchor>
           <Anchor color={color} target="_blank" rel="noopener noreferrer" href={TWITTER}>
-            <Twitter size={30} />
+            <FaTwitter size={30} />
           </Anchor>
           <Anchor color={color} target="_blank" rel="noopener noreferrer" href={STACKOVERFLOW}>
-            <StackOverflow size={30} />
+            <FaStackOverflow size={30} />
+          </Anchor>
+          <Anchor color={color} target="_blank" rel="noopener noreferrer" href={QUORA}>
+            <FaQuora size={30} />
           </Anchor>
         </LeftNavIcons>
         <CopyRightLabel color={color}>copyright © 2017</CopyRightLabel>

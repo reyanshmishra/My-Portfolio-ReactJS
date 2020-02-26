@@ -89,9 +89,8 @@ const Skills = () => (
           <D>Android</D>
         </DataIndicator>
         <DataDesc>
-          Android is where I excel.I have more than two years of experience in android development and I have created several apps
-          for android. I have knowledge of RestApis, threads, several famous libraries like Picasso, Retrofit, Volley, RxAndroid
-          etc.
+          I have more than two years of experience in android development and I have created several apps for android. I know
+          RestApis, threads, several famous libraries like Picasso, Retrofit, Volley, RxAndroid, etc.
         </DataDesc>
       </Row>
       <Row>
@@ -109,8 +108,8 @@ const Skills = () => (
           <D>Design</D>
         </DataIndicator>
         <DataDesc>
-          I know a little bit of Sketch, Photoshop, and illustrator. This website is designed using Sketch and then it is
-          developed using HTML and CSS (Designing is not my area of expertise).
+          I know a little bit of Sketch, Photoshop, and illustrator. This website is designed by me on Sketch, developed using
+          ReactJS and deployed on firebase (Designing is not my area of expertise).
         </DataDesc>
       </Row>
       <Row>
@@ -123,7 +122,7 @@ const Skills = () => (
         <DataDesc>
           This website proves that I know ReactJS as well, I have created it using ReactJS. I have 1.5 years of experience in
           ReactJS and javascript I have built several websites in ReactJS, along the way I have learned about redux, saga, Immer,
-          Immutalbejs and other several other libraries which are basic building blocks of complex ReactJS website.
+          Immutalbejs and other several other libraries which are basic building blocks of complex ReactJS websites.
         </DataDesc>
       </Row>
 
@@ -136,8 +135,8 @@ const Skills = () => (
         </DataIndicator>
         <DataDesc>
           I have worked on few ReactNative apps as well, as I come from a mobile app developed background ReactNative seems pretty
-          easy to me. ReactNative is just similar to ReactJS except for the syntaxes so I don't think it was that hard to learn. I
-          am kind of proficient in it.
+          easy for me. ReactNative is just similar to ReactJS except for the syntaxes so I don't think it was that hard to learn.
+          I am kind of proficient in it.
         </DataDesc>
       </Row>
     </SecondWrapper>
