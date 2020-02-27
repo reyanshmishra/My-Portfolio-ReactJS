@@ -1,0 +1,25 @@
+{
+  "git.ignoreLimitWarning": true,
+  "typescript.suggest.completeFunctionCalls": true,
+  "diffEditor.ignoreTrimWhitespace": true,
+  "[ruby]": {
+    "editor.formatOnSave": false
+  },
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false
+  },
+  "eslint.autoFixOnSave": true,
+  "prettier.disableLanguages": ["javascript", "javascriptreact"],
+  "ruby.locate": {
+    "include": "**/*.rb",
+    "exclude": "{**/@(test|spec|tmp|.*),**/@(test|spec|tmp|.*)/**,**/*_spec.rb}"
+  },
+  "ruby.rubocop.executePath": "/usr/bin/ruby/",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}

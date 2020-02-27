@@ -11,12 +11,16 @@ import SmartWalkLogo from './assets/img/project_smartwalk.png'
 import CodeGiantLogo from './assets/img/codegiant_logo.png'
 import ReyanshLogo from './assets/img/reyansh_logo.png'
 import Aplyft from './assets/img/aplyft.png'
+import TalentHerderLogo from './assets/img/talent_herder.png'
+import Background from './assets/img/background.png'
+import BackgroundMini from './assets/img/background_mini.png'
 
 export default {
   Aplyft,
   BellLogo,
   BoomLogo,
   RadioLogo,
+  Background,
   WodrobLogo,
   MirrorLogo,
   BoosterLogo,
@@ -24,6 +28,8 @@ export default {
   EasyTouchLogo,
   SmartWalkLogo,
   CodeGiantLogo,
+  BackgroundMini,
   BatteryLifeLogo,
-  LearnEnglishLogo
+  LearnEnglishLogo,
+  TalentHerderLogo
 }

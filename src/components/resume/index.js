@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { Helmet } from 'react-helmet'
 import MyImage from '../../assets/img/Reyansh.png'
 import MyResume from '../../assets/reyansh_mishra.pdf'
 
@@ -32,6 +33,9 @@ const Image = styled.img`
 
 const Resume = () => (
   <Wrapper>
+    <Helmet>
+      <title>Reyansh-Resume</title>
+    </Helmet>
     <Image src={MyImage} alt="react-boilerplate - Logo" className="animated zoomIn delay-0.2s" />
     <Download target="_blank" href={MyResume} className="animated slideInUp delay-0.3s">
       Download

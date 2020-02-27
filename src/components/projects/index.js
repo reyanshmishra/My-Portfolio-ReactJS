@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 import PropTypes from 'prop-types'
+import { Helmet } from 'react-helmet'
 import Images from '../../Images'
 
 const Wrapper = styled.div`
@@ -84,6 +85,9 @@ TD.defaultProps = {
 
 const Projects = () => (
   <Wrapper>
+    <Helmet>
+      <title>Reyansh-Projects</title>
+    </Helmet>
     <div
       style={{
         overflow: 'auto',
@@ -186,6 +190,10 @@ const Projects = () => (
             </td>
             <td>
               <TD image={Images.ReyanshLogo} name="Reyansh" href="https://www.reyanshmishra.com" />
+            </td>
+
+            <td>
+              <TD image={Images.TalentHerderLogo} name="Talent Herder" href="https://app.talentherder.com" />
             </td>
           </TR>
           <TR>
